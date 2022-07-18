@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  background: black;
+}
+
+.nav-link {
+  margin: 0px 10px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: white;
+}
+.nav-link:hover {
+  color: #FF850B;
+}
+
+.navbar-brand {
+  color: #FF850B;
+}
