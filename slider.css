@@ -1,0 +1,97 @@
+body{
+     background-color: #0C0B0B; 
+     font-family: 'Ubuntu',sans-serif;
+}
+.container{
+    width:1000px;
+    height:200px
+}
+.movielistheadings{
+    color:white;
+    font-size: 35px;
+}
+
+.list{
+    display:flex;
+    align-items: center;
+    width: 300px;
+}
+.movielistslider{
+    position: relative;
+}
+.moviename{
+    margin:10px;
+   
+}
+.moviename:hover {
+    transform: scale(1.2);
+    margin: 0px 30px;
+}
+.moviename:hover .moviename-title{
+    opacity:1;
+}
+.moviename:hover .moviename-desc{
+    opacity:1;
+}
+.moviename:hover .moviename-button{
+    opacity:1;
+}
+.moviename:hover .moviename-release{
+    opacity:1;
+}
+.moviename:hover .moviename-duration{
+    opacity:1;
+}
+.moviename:hover .moviename-genre{
+    opacity:1;
+}
+.moviename-icon{
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+.moviename-title{
+    font-weight: bold;
+    color:white;
+    padding: 0px 10px;
+    align-items: center;
+    font-size: 32px;
+    opacity: 0;
+
+}
+.moviename-genre{
+    opacity:0;
+    padding:0px 10px;
+    align-items: right;
+    margin-left:70px;
+    color:#FF850B;
+    font-size: 16px;
+    font-weight: bold;
+}
+.moviename-desc{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 12px;
+    opacity:0;
+}
+.moviename-button{
+    opacity:0;
+    padding:10px;
+    background-color: #FF850B;
+    color:azure;
+}
+.moviename-release{
+    opacity:0;
+    color:white;
+    margin-left:50px;
+}
+.moviename-duration{
+    opacity:0;
+    color:white;
+    margin-left:10px;
+}
+.arrow{
+    font-size: 120px;
+    margin-top: 100px;
+}
